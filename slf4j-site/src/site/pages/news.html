@@ -30,8 +30,26 @@
    href="http://www.qos.ch/mailman/listinfo/announce">QOS.ch
    announce</a> mailing list.
    </p>
-
-
+   
+   <hr noshade="noshade" size="1"/>
+     
+   <h3>November 15th, 2018 - Release of SLF4J 1.8.0-beta3</h3>
+   
+   <p>
+   Updated the entry and corrected an issue loading slf4j with an improper or unexpected execution environment <b class="red">J2SE-1.6</b>, so changed the Bundle-RequiredExecutionEnvironment from J2SE-1.6 to <b>JavaSE-1.6</b>. 
+   </p>
+   <p>
+   The Standard Execution Environments are listed at <a href="https://wiki.eclipse.org/Execution_Environments#Standard_Execution_Environments">Eclipse Wiki - Execution Environments: Standard Execution Environments</a>.
+   </p>
+   
+   <p>Updated <i>slf4j-api</i> module's MANIFEST.MF file
+   <i>Bundle-RequiredExecutionEnvironment</i> entry value to <b>JavaSE-1.6</b>.
+   </p> 
+   
+   <p>Updated <i>slf4j-integration</i> module's MANIFEST.MF file
+   <i>Bundle-RequiredExecutionEnvironment</i> entry value to <b>JavaSE-1.6</b>.
+   </p> 
+   
    <hr noshade="noshade" size="1"/>
 
    <h3> 2018 - Release of SLF4J 1.8.0-beta3</h3>
@@ -93,7 +111,8 @@
    also <a href="https://jira.qos.ch/browse/SLF4J-430">SLF4J-430</a>
    and <a href="https://jira.qos.ch/browse/SLF4J-431">SLF4J-431</a>.</p>
   
-   
+   <hr noshade="noshade" size="1"/>
+    
    <h3>January 30th, 2018 - Release of SLF4J 1.8.0-beta1</h3>
    
    <p>Fix Travis build issues as reported in <a
